@@ -1,0 +1,35 @@
+################################################
+#                                              #
+# Author: Dimiqhz                              #
+# Started: 16 December, 2024                   #
+# GitHub: https://github.com/Dimiqhz/VeeBot-VK #
+#                                              #
+################################################
+
+# Do not touch this!
+version: 0.1
+
+
+# You can use the types: longpoll, callback
+# If you don't know what it does, I recommend you set Long Poll API (longpoll)
+type: "longpoll"
+
+# API VERSION
+# You can use the specified API version, the default is 5.199
+# DO NOT TOUCH THIS, IF YOU DON'T KNOW WHAT IT DOES
+api_version: 5199
+
+# API KEY (ONLY IF YOU USE THE LONG POLL API)
+# To get your API KEY, follow the link: https://vk.com/[LINK TO YOUR COMMUNITY PAGE]?atc=api
+# and create key LONG POLL 
+api_key: ""
+
+################################################################################
+# YOU CAN'T USE THE CALLBACK API AT THE MOMENT, IT WILL BE IN THE NEXT UPDATE. #
+################################################################################
+
+# CALLBACK SERVER URL (ONLY IF YOU USE THE CALLBACK API)
+#callback_url: ""
+
+# CALLBACK SECRET KEY (ONLY IF YOU USE THE CALLBACK API)
+#callback_secret: ""
