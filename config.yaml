@@ -9,6 +9,9 @@
 # Do not touch this!
 version: 0.1
 
+# I want to collect some anonymized data about the use of my script if you don't want to send your statistics about the script
+# You can set "false" for this option
+stats: true
 
 # You can use the types: longpoll, callback
 # If you don't know what it does, I recommend you set Long Poll API (longpoll)
@@ -33,3 +36,23 @@ api_key: ""
 
 # CALLBACK SECRET KEY (ONLY IF YOU USE THE CALLBACK API)
 #callback_secret: ""
+
+####################
+# DATABASE CONNECT #
+####################
+
+# You can use MYSQL, M2, SQLITE, POSTGRESQL as a system for storing user data, bans, and more.
+type: mysql
+
+# Enter "true" if your server uses an SSL CERTIFICATE
+use_cert: false 
+
+# Enter your credentials for your MYSQL or PostgreSQL if you entered "MYSQL" or "PostgreSQL" next to "type", for example "localhost".
+host: ""
+port: 3389
+username: "your-user"
+password: "your-password"
+
+# Enter the path to the SSL certificate file if you entered "true" next to "use_cert".
+cert: "/path/to/cert"
+cert-pkey: "/path/to/privatekey"
